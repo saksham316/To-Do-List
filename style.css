@@ -1,0 +1,54 @@
+body{
+    background-image: url("hans-isaacson-ZQgc_n778gI-unsplash.jpg");
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 3rem;
+}
+h2{
+    text-align: center;
+}
+.j_center{
+    display: flex;
+    align-content: center;
+}
+.para_top{
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-size:2rem;
+    text-align: center;
+    color:brown;
+}
+strong{
+    font-size: 1.5em;
+    text-align: center;
+}
+#userinput{
+    font-size: 1.5em;
+}
+#add{
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: blue;
+} 
+#li_first{
+    list-style: none;
+}
+.list_items{
+    list-style:circle;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:rgb(134, 66, 245);
+    text-align: center;
+}
+.del_items{
+    margin-left: 70px;
+    font-weight: bold;
+    color:red;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
