@@ -19,6 +19,11 @@ function elementcreating(){
         del_par_par.removeChild(del_par);
     })
 
+    li.addEventListener("click",function(){
+        li.style.textDecoration = "line-through";
+        li.style.textDecorationColor = "black";
+    })
+
 }
 button_add.addEventListener("click",function(){
     if(input.value.length>0){
